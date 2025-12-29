@@ -147,7 +147,7 @@ RULES:
     const res = await axios.post(
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
       { contents: [{ parts: [{ text: prompt }] }] },
-      { params: { key: "AIzaSyD0Yq3yoKjzeHRwuzus6i2kqwCi9b8FXso" } }
+      { params: { key: "AIzaSyCFJkxZPnQ_ZEqeEU8O8P7SvWnK_syImS4" } }
     );
 
     const text =
